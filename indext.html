@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jonatan San Roman</title>
+    <h1>Mi portafolio_ </h1>
+    <img src="img/matrix-4-cambio-genero-960x720.jpg" width="300" />
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 class="datos_personales">Datos personales</h3>
+    <p><strong>Nombre completo: </strong>Jonatan San Roman</p>
+    <p><strong>Edad: </strong>29</p>
+    <p><strong>Titulo: </strong>Fullstack Web Jr.</p>
+
+    <!-- Tabla -->
+    <table style="width: 300px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Curso simple</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>            
+                <td>Curso completo</td>
+                <td>50$</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <td>Total:</td>
+            <td>50$</td>
+        </tfoot>
+    </table>
+
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <br>
+    <!--ul es lista ordenada-->
+    <ol>
+        <li>Elemento ordenado 1</li>
+        <li>Elemento ordenado 2</li>
+        <li>Elemento ordenado 3</li>
+        <li>Elemento ordenado 4</li>
+    </ol>
+
+    <from action="/formulario" method="POST">
+        <label for="nombre">Nombre: </label>
+        <input id="nombre" name="nombre" type="text" placeholder="Nombre"/>
+        <br>
+        <label for="Mail">Mail: </label>
+        <input id="Mail" name="Mail" type="email" placeholder="Mail"/>
+        <br>
+        <textarea cols="30" rows ="10" id="comentarios" name="comentarios" type="text" placeholder="Ingrese comentario..." ></textarea>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </from>
+</body>
+
+<footer>
+    <hr>
+    <a target="_blank" href="https://github.com/sanromanjsr"><span>GitHub</span></a>
+    <a target="_blank" href="https://www.facebook.com/Jona.SanRoman"><span>Facebook</span></a>
+    <a target="_blank" href="https://www.instagram.com/jonysanroman/"><span>Instagram</span></a>
+    <a href="mailto:sanroman.jsr@gmail.com">Gmail</a>
+</footer>
+
+</html>
